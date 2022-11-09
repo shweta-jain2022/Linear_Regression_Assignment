@@ -8,23 +8,23 @@
 > To develop a model for demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. 
  
 
-## **DATASET PROVIDED HAS THE FOLLOWING INFORMATION:**
-> instant: Record index
-> dteday : Date
-> season : Season (1:spring, 2:summer, 3:fall, 4:winter)
-> yr : Year (0: 2018, 1:2019)
-> mnth : Month ( 1 to 12)
-> holiday : Whether day is a holiday or not 
-> weekday : Day of the week
-> workingday : If day is neither weekend nor holiday is 1, 		          otherwise is 0.
-> weathersit : Weather situation (clear/ mist/ rain/ snow)
-> temp : Temperature in Celsius
-> atemp: Feeling temperature in Celsius
-> hum: Humidity
-> windspeed: Wind speed
-> casual: Count of casual users
-> registered: Count of registered users
-> cnt: Count of total rental bikes including both casual and registered
+## **INDEPENDENT VARIABLES**
+> instant: Record index<br>
+> dteday : Date<br>
+> season : Season (1:spring, 2:summer, 3:fall, 4:winter)br>
+> yr : Year (0: 2018, 1:2019)<br>
+> mnth : Month ( 1 to 12)<br>
+> holiday : Whether day is a holiday or not<br>
+> weekday : Day of the week<br>
+> workingday : If day is neither weekend nor holiday is 1, 		          otherwise is 0.<br>
+> weathersit : Weather situation (clear/ mist/ rain/ snow)<br>
+> temp : Temperature in Celsius<br>
+> atemp: Feeling temperature in Celsius<br>
+> hum: Humidity<br>
+> windspeed: Wind speed<br>
+> casual: Count of casual users<br>
+> registered: Count of registered users<br>
+> cnt: Count of total rental bikes including both casual and registered<br>
 
 
 ## **TARGET/DEPENDENT VARIABLE**
@@ -36,7 +36,7 @@
 
 
 ## **R2 SCORE**
-> On training set - 0.804
+> On training set - 0.804<br>
 > On test set - 0.769
 
 
